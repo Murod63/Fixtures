@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/07fb93db92.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slider -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__top">
+          <a href="/" class="header__icon">Fixtures</a>
+          <span class="fas fa-phone-alt header__call"> Call: +01234567890</span>
+          <span class="fas fas fa-map-marker-alt header__call">
+            Lorem ipsum</span
+          >
+        </div>
+        <nav class="header__nav collapsible collapsible--expanded">
+          <button class="hamburger">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="header__list collapsible__content">
+            <li class="header__item">
+              <a class="header__link" href="#">home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">about</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">furnitures</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">blog</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">testimonial</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">contact us</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">login</a>
+            </li>
+            <li class="header__item">
+              <span class="fas fa-search header__search"></span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Slider -->
+    <div class="swiper mySwiper">
+      <div class="swiper-container container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img
+                class="swiper__sofa"
+                src="../img/leather-sofa.png"
+                alt="sofa"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide__table">
+            <div class="swiper__img">
+              <h3 class="swiper__title">Best Furnitures For Your Home</h3>
+              <img class="swiper__table" src="../img/table.png" alt="table" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img
+                class="swiper__throne"
+                src="../img/throne.png"
+                alt="throne"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper__btn">
+          <span class="fas fa-arrow-left"></span>
+          <span class="fas fa-arrow-right"></span>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial -->
+    <section class="testimonial container">
+      <div class="testimonial__brand">
+        <h3 class="testimonial__lucky">About Our Shop</h3>
+        <p class="testimonial__content">
+          reader will be distracted by the readable content of a page when
+          looking at its layout. The point of using Lorem Ipsum is that it has a
+          more-or-less normal distribution of letters, as opposed to using
+          'Content
+        </p>
+      </div>
+      <div class="testimonial__container">
+        <div class="grid grid--1x2 grid--1x3">
+          <div class="testimonial__img">
+            <img
+              class="testimonial__picture"
+              src="../img/chairs-testimonial.png"
+              alt="chair"
+            />
+          </div>
+          <div class="testimonial__body">
+            <div class="testimonial__description">
+              <h5 class="testimonial__title">Good Furnitures Design</h5>
+              <p class="testimonial__success">
+                necessary, making this the first true generator on the Internet.
+                It uses a dictionary of over 200 Latin words, combined with a
+                handful of model sentence structures, to
+              </p>
+            </div>
+            <button class="btn btn-secondary">read more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Domain Block -->
+    <section class="domain">
+      <div class="domain__brand container">
+        <h3 class="domain__title">Our Furnitures Work</h3>
+        <p class="domain__success">
+          reader will be distracted by the readable content of a page when
+          looking at its layout.
+        </p>
+      </div>
+    </section>
+    <!-- Plan Block -->
+    <section class="plan">
+      <div class="container grid grid--1x3">
+        <div class="plan__container">
+          <div class="plan__img">
+            <img
+              class="plan__picture"
+              src="../img/furniture.png"
+              alt="furniture"
+            />
+            <h6 class="plan__title">Bedroom</h6>
+          </div>
+          <a href="#" class="btn btn-secondary plan__btn">see more</a>
+          <!-- <button class="btn btn-primary">read more</button> -->
+        </div>
+        <div class="plan__container container">
+          <div class="plan__img">
+            <img
+              class="plan__picture"
+              src="../img/conference-room.png"
+              alt="furniture"
+            />
+            <h6 class="plan__title">office</h6>
+          </div>
+          <a href="#" class="btn btn-primary plan__btn">see more</a>
+          <!-- <button class="btn btn-primary">read more</button> -->
+        </div>
+        <div class="plan__container container">
+          <div class="plan__img">
+            <img
+              class="plan__picture"
+              src="../img/bathroom.png"
+              alt="furniture"
+            />
+            <h6 class="plan__title">Bathroom</h6>
+          </div>
+          <a href="#" class="btn btn-secondary plan__btn">see more</a>
+          <!-- <button class="btn btn-primary">read more</button> -->
+        </div>
+      </div>
+    </section>
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="showcase__container container">
+        <h5 class="showcase__title">Trending Products</h5>
+        <div class="showcase__grid">
+          <div class="grid grid--1x2 grid--1x3">
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#theater"></use>
+              </svg>
+              <p class="showcase__brand">chairs</p>
+            </div>
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#chair"></use>
+              </svg>
+              <p class="showcase__brand">chair</p>
+            </div>
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#sideboard"></use>
+              </svg>
+              <p class="showcase__brand">sideboard</p>
+            </div>
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#unchair"></use>
+              </svg>
+              <p class="showcase__brand">unchair</p>
+            </div>
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#wooden-chair"></use>
+              </svg>
+              <p class="showcase__brand">chair</p>
+            </div>
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#beach"></use>
+              </svg>
+              <p class="showcase__brand">relax chair</p>
+            </div>
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#bank"></use>
+              </svg>
+              <p class="showcase__brand">styly chair</p>
+            </div>
+            <div class="showcase__item">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#daing-chair"></use>
+              </svg>
+              <p class="showcase__brand">daing chair</p>
+            </div>
+            <div class="showcase__item showcase__lucky">
+              <svg class="icon showcase__img">
+                <use xlink:href="../img/sprite.svg#armchair"></use>
+              </svg>
+              <p class="showcase__brand">relax-chair</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn btn-secondary showcase__btn">see more</a>
+      </div>
+    </section>
+    <!-- Input Group -->
+    <div class="input__container container">
+      <form class="input__form">
+        <label>Get In Touch</label>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Phone Number" />
+        <textarea cols="30" rows="10" placeholder="Message"></textarea>
+      </form>
+      <button class="btn btn-primary input__btn">send</button>
+      <button class="btn btn-secondary input__btn">map</button>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">home</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">about</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">futnitures</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">blog</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">testimonial</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">contact us</a>
+          </li>
+        </ul>
+        <div class="footer__social">
+          <span class="fab fa-facebook"></span>
+          <span class="fab fa-twitter"></span>
+          <span class="fab fa-linkedin"></span>
+          <span class="fab fa-instagram"></span>
+        </div>
+        <p class="footer__copyright">&copy; Copyright 2021.</p>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+
+        breakpoints: {
+          1024: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+          },
+        },
+
+        navigation: {
+          nextEl: ".fa-arrow-right",
+          prevEl: ".fa-arrow-left",
+        },
+      });
+    </script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
